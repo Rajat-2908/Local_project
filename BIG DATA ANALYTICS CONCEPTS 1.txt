@@ -1,0 +1,75 @@
+A user: i phone,apple watch,mac laptop
+
+b user:i-phone,mac laptop
+
+   suggestion of buying apple watch
+
+customer churn prevention: reading the behaviour of customers
+
+problem: install atm in best possible location of city.
+
+
+data +info
+
+1. go to database of bank--list of users--zipcode--stay of living of max users
+
+2. customer care files
+
+3. twitter account: post of customers of not having atm
+
+4. reports of other bank
+
+5. polling on bank website: 
+Hadoop : framework for storing and analysing big data sets.
+
+how to store the data
+how to analyse the data .
+
+
+HDFS: HADOOP DISTRIBUTED FILE SYSTEM:  STORE THE DATAM IN HADOOP.
+HADOOP CLUSTER---10 MACHINES
+
+BLOCK SIZE: 128 MB
+
+A.TXT: 300 MB
+
+B1--128 MB---D1
+B2--128 MB--D2
+B3--72 MB--D3
+
+
+
+
+1--MASTER MACHINE--NAMENODE: KEEPS A TRACK OF WHICH DATA IS KEPT AT WHICH DATANODE.(METADATA)
+           FILE1---D3
+           FILE2--D4
+
+2- HELPER MACHINE--SC NAMENODE:  FILE1---D3
+                                 FILE2--D4
+
+8 MACHINE--SLAVE MACHINES--DATANODE/WORKER NODE:  STORES THE DATA INSIDE HADOOP
+
+   M3---DATANODE3---FILE1-KGJJJHJF
+   M4--DATANODE4--FILE4--GJFGJGH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
